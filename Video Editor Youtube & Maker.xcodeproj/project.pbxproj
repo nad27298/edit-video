@@ -1,0 +1,1064 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F015D7B259C79880062EDD9 /* ShowSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F015D7A259C79880062EDD9 /* ShowSettingVC.swift */; };
+		8F03F09925A6EAAA00C2ED9E /* ScaleCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F03F09725A6EAAA00C2ED9E /* ScaleCVC.xib */; };
+		8F03F09A25A6EAAA00C2ED9E /* ScaleCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F03F09825A6EAAA00C2ED9E /* ScaleCVC.swift */; };
+		8F03F09E25A6EE8F00C2ED9E /* BackgroundCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F03F09C25A6EE8F00C2ED9E /* BackgroundCVC.swift */; };
+		8F03F09F25A6EE8F00C2ED9E /* BackgroundCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F03F09D25A6EE8F00C2ED9E /* BackgroundCVC.xib */; };
+		8F04771325C422440085C99F /* PhotoLibraryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F04771225C422440085C99F /* PhotoLibraryManager.swift */; };
+		8F08611725958DAB0003EC37 /* MovieProTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F08611525958DAB0003EC37 /* MovieProTVC.swift */; };
+		8F08611825958DAB0003EC37 /* MovieProTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F08611625958DAB0003EC37 /* MovieProTVC.xib */; };
+		8F08611E259593B50003EC37 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F08611D259593B50003EC37 /* Extension.swift */; };
+		8F086123259595DF0003EC37 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F086121259595DF0003EC37 /* Constant.swift */; };
+		8F086124259595DF0003EC37 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F086122259595DF0003EC37 /* Config.swift */; };
+		8F0861352595A5B20003EC37 /* PaymentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0861332595A5B20003EC37 /* PaymentManager.swift */; };
+		8F08613A2595A6420003EC37 /* AdmobManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0861392595A6420003EC37 /* AdmobManager.swift */; };
+		8F0861412595A75A0003EC37 /* HelpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0861402595A75A0003EC37 /* HelpVC.swift */; };
+		8F0861442595A7C90003EC37 /* GalleryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0861432595A7C90003EC37 /* GalleryVC.swift */; };
+		8F0861492595A8CE0003EC37 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0861482595A8CE0003EC37 /* Utils.swift */; };
+		8F08616B2595D77E0003EC37 /* PremiumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F08616A2595D77D0003EC37 /* PremiumVC.swift */; };
+		8F0AD4E9259AE91700F8AE99 /* GalleryEditCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0AD4E7259AE91600F8AE99 /* GalleryEditCVC.swift */; };
+		8F0AD4EA259AE91700F8AE99 /* GalleryEditCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F0AD4E8259AE91700F8AE99 /* GalleryEditCVC.xib */; };
+		8F0F03B925B549A700DF47D3 /* AudioCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0F03B725B549A700DF47D3 /* AudioCVC.swift */; };
+		8F0F03BA25B549A700DF47D3 /* AudioCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F0F03B825B549A700DF47D3 /* AudioCVC.xib */; };
+		8F0F03CD25B57B7800DF47D3 /* AppleMusicCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F0F03CB25B57B7800DF47D3 /* AppleMusicCVC.xib */; };
+		8F0F03CE25B57B7800DF47D3 /* AppleMusicCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0F03CC25B57B7800DF47D3 /* AppleMusicCVC.swift */; };
+		8F11CFD425AFF047009C24F6 /* GalleryEditExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F11CFD325AFF047009C24F6 /* GalleryEditExtension.swift */; };
+		8F20D05925B995BF008D3ED7 /* ShareYoutubeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F20D05825B995BF008D3ED7 /* ShareYoutubeVC.swift */; };
+		8F29F67525B92F7300F5EC87 /* MyDraftCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F29F67325B92F7300F5EC87 /* MyDraftCVC.swift */; };
+		8F29F67625B92F7300F5EC87 /* MyDraftCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F29F67425B92F7300F5EC87 /* MyDraftCVC.xib */; };
+		8F37B53C2599C25400911974 /* HelpTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F37B53A2599C25400911974 /* HelpTVC.swift */; };
+		8F37B53D2599C25400911974 /* HelpTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F37B53B2599C25400911974 /* HelpTVC.xib */; };
+		8F5ACD4D25AC028E009E9EA0 /* VideoGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5ACD4C25AC028E009E9EA0 /* VideoGenerator.swift */; };
+		8F5ACD5025AC02D9009E9EA0 /* VideoGeneratorError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5ACD4F25AC02D9009E9EA0 /* VideoGeneratorError.swift */; };
+		8F5B5BEB25AD97E80077EC92 /* SpeedCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B5BE925AD97E80077EC92 /* SpeedCVC.swift */; };
+		8F5B5BEC25AD97E80077EC92 /* SpeedCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F5B5BEA25AD97E80077EC92 /* SpeedCVC.xib */; };
+		8F66044C2594942D00548FE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F66044B2594942D00548FE2 /* AppDelegate.swift */; };
+		8F66044E2594942D00548FE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F66044D2594942D00548FE2 /* SceneDelegate.swift */; };
+		8F6604532594942D00548FE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F6604512594942D00548FE2 /* Main.storyboard */; };
+		8F6604552594942F00548FE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F6604542594942F00548FE2 /* Assets.xcassets */; };
+		8F6604582594942F00548FE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F6604562594942F00548FE2 /* LaunchScreen.storyboard */; };
+		8F6604642594950400548FE2 /* MyMovieVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6604632594950400548FE2 /* MyMovieVC.swift */; };
+		8F66046A2594A32100548FE2 /* MovieProVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6604692594A32100548FE2 /* MovieProVC.swift */; };
+		8F66046D2594A33500548FE2 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F66046C2594A33500548FE2 /* SettingVC.swift */; };
+		8F834DE325B2CD1100F80855 /* Audio19.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DC025B2CD0D00F80855 /* Audio19.mp3 */; };
+		8F834DE425B2CD1100F80855 /* Audio16.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DC125B2CD0D00F80855 /* Audio16.mp3 */; };
+		8F834DE525B2CD1100F80855 /* Audio32.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DC225B2CD0D00F80855 /* Audio32.mp3 */; };
+		8F834DE625B2CD1100F80855 /* Audio28.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DC325B2CD0D00F80855 /* Audio28.mp3 */; };
+		8F834DE725B2CD1100F80855 /* Audio8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DC425B2CD0E00F80855 /* Audio8.mp3 */; };
+		8F834DE825B2CD1100F80855 /* Audio18.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DC525B2CD0E00F80855 /* Audio18.mp3 */; };
+		8F834DE925B2CD1100F80855 /* Audio25.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DC625B2CD0E00F80855 /* Audio25.mp3 */; };
+		8F834DEA25B2CD1100F80855 /* Audio14.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DC725B2CD0E00F80855 /* Audio14.mp3 */; };
+		8F834DEB25B2CD1100F80855 /* Audio7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DC825B2CD0E00F80855 /* Audio7.mp3 */; };
+		8F834DEC25B2CD1100F80855 /* Audio34.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DC925B2CD0E00F80855 /* Audio34.mp3 */; };
+		8F834DED25B2CD1100F80855 /* Audio12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DCA25B2CD0E00F80855 /* Audio12.mp3 */; };
+		8F834DEE25B2CD1100F80855 /* Audio10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DCB25B2CD0E00F80855 /* Audio10.mp3 */; };
+		8F834DEF25B2CD1100F80855 /* Audio33.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DCC25B2CD0E00F80855 /* Audio33.mp3 */; };
+		8F834DF025B2CD1100F80855 /* Audio15.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DCD25B2CD0F00F80855 /* Audio15.mp3 */; };
+		8F834DF125B2CD1100F80855 /* Audio24.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DCE25B2CD0F00F80855 /* Audio24.mp3 */; };
+		8F834DF225B2CD1100F80855 /* Audio5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DCF25B2CD0F00F80855 /* Audio5.mp3 */; };
+		8F834DF325B2CD1100F80855 /* Audio27.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DD025B2CD0F00F80855 /* Audio27.mp3 */; };
+		8F834DF425B2CD1100F80855 /* Audio9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DD125B2CD0F00F80855 /* Audio9.mp3 */; };
+		8F834DF525B2CD1100F80855 /* Audio13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DD225B2CD0F00F80855 /* Audio13.mp3 */; };
+		8F834DF625B2CD1100F80855 /* Audio3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DD325B2CD0F00F80855 /* Audio3.mp3 */; };
+		8F834DF725B2CD1100F80855 /* Audio23.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DD425B2CD0F00F80855 /* Audio23.mp3 */; };
+		8F834DF825B2CD1100F80855 /* Audio22.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DD525B2CD0F00F80855 /* Audio22.mp3 */; };
+		8F834DF925B2CD1100F80855 /* Audio6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DD625B2CD0F00F80855 /* Audio6.mp3 */; };
+		8F834DFA25B2CD1100F80855 /* Audio20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DD725B2CD1000F80855 /* Audio20.mp3 */; };
+		8F834DFB25B2CD1100F80855 /* Audio26.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DD825B2CD1000F80855 /* Audio26.mp3 */; };
+		8F834DFC25B2CD1100F80855 /* Audio29.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DD925B2CD1000F80855 /* Audio29.mp3 */; };
+		8F834DFD25B2CD1100F80855 /* Audio30.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DDA25B2CD1000F80855 /* Audio30.mp3 */; };
+		8F834DFE25B2CD1100F80855 /* Audio11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DDB25B2CD1000F80855 /* Audio11.mp3 */; };
+		8F834DFF25B2CD1100F80855 /* Audio21.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DDC25B2CD1000F80855 /* Audio21.mp3 */; };
+		8F834E0025B2CD1100F80855 /* Audio1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DDD25B2CD1000F80855 /* Audio1.mp3 */; };
+		8F834E0125B2CD1100F80855 /* Audio4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DDE25B2CD1000F80855 /* Audio4.mp3 */; };
+		8F834E0225B2CD1100F80855 /* Audio2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DDF25B2CD1000F80855 /* Audio2.mp3 */; };
+		8F834E0325B2CD1100F80855 /* Audio31.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DE025B2CD1000F80855 /* Audio31.mp3 */; };
+		8F834E0425B2CD1100F80855 /* Audio17.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DE125B2CD1000F80855 /* Audio17.mp3 */; };
+		8F834E0525B2CD1100F80855 /* Audio35.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8F834DE225B2CD1100F80855 /* Audio35.mp3 */; };
+		8F84B6C025B6DB9B002C5A4B /* ColorCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F84B6BE25B6DB9B002C5A4B /* ColorCVC.swift */; };
+		8F84B6C125B6DB9B002C5A4B /* ColorCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F84B6BF25B6DB9B002C5A4B /* ColorCVC.xib */; };
+		8FAA41A125AEE5E6000A30A6 /* TransitionCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAA419F25AEE5E6000A30A6 /* TransitionCVC.swift */; };
+		8FAA41A225AEE5E6000A30A6 /* TransitionCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FAA41A025AEE5E6000A30A6 /* TransitionCVC.xib */; };
+		8FAA41AC25AEE978000A30A6 /* TrimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAA41A525AEE978000A30A6 /* TrimView.swift */; };
+		8FAA41AD25AEE978000A30A6 /* FrameImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAA41A625AEE978000A30A6 /* FrameImagesView.swift */; };
+		8FAA41AE25AEE978000A30A6 /* TimelineMeasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAA41A725AEE978000A30A6 /* TimelineMeasure.swift */; };
+		8FAA41AF25AEE978000A30A6 /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAA41A825AEE978000A30A6 /* TimelineView.swift */; };
+		8FAA41B025AEE978000A30A6 /* CenterLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAA41A925AEE978000A30A6 /* CenterLine.swift */; };
+		8FAA41B125AEE978000A30A6 /* TimelineScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAA41AA25AEE978000A30A6 /* TimelineScroller.swift */; };
+		8FAA41B225AEE978000A30A6 /* VideoTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAA41AB25AEE978000A30A6 /* VideoTimelineView.swift */; };
+		8FACF8C825AD5BA20069931B /* GalleryTypeCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FACF8C625AD5BA20069931B /* GalleryTypeCVC.swift */; };
+		8FACF8C925AD5BA20069931B /* GalleryTypeCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FACF8C725AD5BA20069931B /* GalleryTypeCVC.xib */; };
+		8FB3E9D425B29F220056E2D0 /* AdjustSliderCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB3E9D225B29F220056E2D0 /* AdjustSliderCVC.swift */; };
+		8FB3E9D525B29F220056E2D0 /* AdjustSliderCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FB3E9D325B29F220056E2D0 /* AdjustSliderCVC.xib */; };
+		8FCB2C9425A592C000294366 /* FilterCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCB2C9225A592C000294366 /* FilterCVC.swift */; };
+		8FCB2C9525A592C000294366 /* FilterCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FCB2C9325A592C000294366 /* FilterCVC.xib */; };
+		8FCB2CA225A5A7A300294366 /* StickerCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCB2CA025A5A7A300294366 /* StickerCVC.swift */; };
+		8FCB2CA325A5A7A300294366 /* StickerCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FCB2CA125A5A7A300294366 /* StickerCVC.xib */; };
+		8FCB2CAD25A5B21200294366 /* EffectCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCB2CAB25A5B21200294366 /* EffectCVC.swift */; };
+		8FCB2CAE25A5B21200294366 /* EffectCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FCB2CAC25A5B21200294366 /* EffectCVC.xib */; };
+		8FCE0A1625B8241C007C26A4 /* MyDraftsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCE0A1525B8241B007C26A4 /* MyDraftsVC.swift */; };
+		8FCEE2E325A995210064686E /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCEE2E225A995210064686E /* VideoModel.swift */; };
+		8FD1F02C25CE68BF006D339D /* nativeAdmobCLVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD1F02825CE68BF006D339D /* nativeAdmobCLVCell.swift */; };
+		8FD1F02D25CE68BF006D339D /* nativeAdmobTBLCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD1F02925CE68BF006D339D /* nativeAdmobTBLCell.swift */; };
+		8FD1F02E25CE68BF006D339D /* nativeAdmobCLVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FD1F02A25CE68BF006D339D /* nativeAdmobCLVCell.xib */; };
+		8FD1F02F25CE68BF006D339D /* nativeAdmobTBLCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FD1F02B25CE68BF006D339D /* nativeAdmobTBLCell.xib */; };
+		8FE259782596E41F00A89AC2 /* GalleryCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE259762596E41F00A89AC2 /* GalleryCVC.swift */; };
+		8FE259792596E41F00A89AC2 /* GalleryCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FE259772596E41F00A89AC2 /* GalleryCVC.xib */; };
+		8FE259812597257A00A89AC2 /* GalleryBarCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE2597F2597257A00A89AC2 /* GalleryBarCVC.swift */; };
+		8FE259822597257A00A89AC2 /* GalleryBarCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FE259802597257A00A89AC2 /* GalleryBarCVC.xib */; };
+		8FE25989259730AD00A89AC2 /* GalleryEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE25988259730AD00A89AC2 /* GalleryEditVC.swift */; };
+		8FEA255825B7E4C900B1B9B2 /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = 8FEA255725B7E4C900B1B9B2 /* data.db */; };
+		8FEA256125B7E58400B1B9B2 /* SqlDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEA256025B7E58400B1B9B2 /* SqlDataBase.swift */; };
+		8FEA256425B7E5B000B1B9B2 /* VideoEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEA256325B7E5B000B1B9B2 /* VideoEntity.swift */; };
+		8FEA256825B7EFB900B1B9B2 /* MyMovieCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEA256625B7EFB900B1B9B2 /* MyMovieCVC.swift */; };
+		8FEA256925B7EFB900B1B9B2 /* MyMovieCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FEA256725B7EFB900B1B9B2 /* MyMovieCVC.xib */; };
+		8FFD9F1925A9AE95001887BA /* EditVideoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFD9F1825A9AE95001887BA /* EditVideoManager.swift */; };
+		BE47A7557A73B8986BD2182B /* Pods_Video_Editor_Youtube___Maker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FB3F82E18892703A8B86EFF /* Pods_Video_Editor_Youtube___Maker.framework */; };
+		C3AE7AF325C7E9CA0005C3B2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3AE7AF225C7E9CA0005C3B2 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FB3F82E18892703A8B86EFF /* Pods_Video_Editor_Youtube___Maker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Video_Editor_Youtube___Maker.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22ADB1673EA532613E654C22 /* Pods-Video Editor Youtube & Maker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Video Editor Youtube & Maker.debug.xcconfig"; path = "Target Support Files/Pods-Video Editor Youtube & Maker/Pods-Video Editor Youtube & Maker.debug.xcconfig"; sourceTree = "<group>"; };
+		8F015D7A259C79880062EDD9 /* ShowSettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowSettingVC.swift; sourceTree = "<group>"; };
+		8F03F09725A6EAAA00C2ED9E /* ScaleCVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScaleCVC.xib; sourceTree = "<group>"; };
+		8F03F09825A6EAAA00C2ED9E /* ScaleCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleCVC.swift; sourceTree = "<group>"; };
+		8F03F09C25A6EE8F00C2ED9E /* BackgroundCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundCVC.swift; sourceTree = "<group>"; };
+		8F03F09D25A6EE8F00C2ED9E /* BackgroundCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BackgroundCVC.xib; sourceTree = "<group>"; };
+		8F04771225C422440085C99F /* PhotoLibraryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoLibraryManager.swift; sourceTree = "<group>"; };
+		8F08611525958DAB0003EC37 /* MovieProTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieProTVC.swift; sourceTree = "<group>"; };
+		8F08611625958DAB0003EC37 /* MovieProTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieProTVC.xib; sourceTree = "<group>"; };
+		8F08611D259593B50003EC37 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		8F086121259595DF0003EC37 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		8F086122259595DF0003EC37 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		8F0861332595A5B20003EC37 /* PaymentManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentManager.swift; sourceTree = "<group>"; };
+		8F0861392595A6420003EC37 /* AdmobManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdmobManager.swift; sourceTree = "<group>"; };
+		8F0861402595A75A0003EC37 /* HelpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpVC.swift; sourceTree = "<group>"; };
+		8F0861432595A7C90003EC37 /* GalleryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryVC.swift; sourceTree = "<group>"; };
+		8F0861482595A8CE0003EC37 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		8F08616A2595D77D0003EC37 /* PremiumVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PremiumVC.swift; sourceTree = "<group>"; };
+		8F0AD4E7259AE91600F8AE99 /* GalleryEditCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryEditCVC.swift; sourceTree = "<group>"; };
+		8F0AD4E8259AE91700F8AE99 /* GalleryEditCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryEditCVC.xib; sourceTree = "<group>"; };
+		8F0F03B725B549A700DF47D3 /* AudioCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCVC.swift; sourceTree = "<group>"; };
+		8F0F03B825B549A700DF47D3 /* AudioCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AudioCVC.xib; sourceTree = "<group>"; };
+		8F0F03CB25B57B7800DF47D3 /* AppleMusicCVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppleMusicCVC.xib; sourceTree = "<group>"; };
+		8F0F03CC25B57B7800DF47D3 /* AppleMusicCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleMusicCVC.swift; sourceTree = "<group>"; };
+		8F11CFD325AFF047009C24F6 /* GalleryEditExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryEditExtension.swift; sourceTree = "<group>"; };
+		8F20D05825B995BF008D3ED7 /* ShareYoutubeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareYoutubeVC.swift; sourceTree = "<group>"; };
+		8F29F67325B92F7300F5EC87 /* MyDraftCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDraftCVC.swift; sourceTree = "<group>"; };
+		8F29F67425B92F7300F5EC87 /* MyDraftCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyDraftCVC.xib; sourceTree = "<group>"; };
+		8F37B53A2599C25400911974 /* HelpTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpTVC.swift; sourceTree = "<group>"; };
+		8F37B53B2599C25400911974 /* HelpTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelpTVC.xib; sourceTree = "<group>"; };
+		8F5ACD4C25AC028E009E9EA0 /* VideoGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoGenerator.swift; sourceTree = "<group>"; };
+		8F5ACD4F25AC02D9009E9EA0 /* VideoGeneratorError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoGeneratorError.swift; sourceTree = "<group>"; };
+		8F5B5BE925AD97E80077EC92 /* SpeedCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedCVC.swift; sourceTree = "<group>"; };
+		8F5B5BEA25AD97E80077EC92 /* SpeedCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpeedCVC.xib; sourceTree = "<group>"; };
+		8F6604482594942D00548FE2 /* Video Editor Youtube & Maker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Video Editor Youtube & Maker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F66044B2594942D00548FE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F66044D2594942D00548FE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8F6604522594942D00548FE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F6604542594942F00548FE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F6604572594942F00548FE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F6604592594942F00548FE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F6604632594950400548FE2 /* MyMovieVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMovieVC.swift; sourceTree = "<group>"; };
+		8F6604692594A32100548FE2 /* MovieProVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieProVC.swift; sourceTree = "<group>"; };
+		8F66046C2594A33500548FE2 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		8F7C9D0E9C9C813AD4CF8CBC /* Pods-Video Editor Youtube & Maker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Video Editor Youtube & Maker.release.xcconfig"; path = "Target Support Files/Pods-Video Editor Youtube & Maker/Pods-Video Editor Youtube & Maker.release.xcconfig"; sourceTree = "<group>"; };
+		8F834DC025B2CD0D00F80855 /* Audio19.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio19.mp3; sourceTree = "<group>"; };
+		8F834DC125B2CD0D00F80855 /* Audio16.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio16.mp3; sourceTree = "<group>"; };
+		8F834DC225B2CD0D00F80855 /* Audio32.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio32.mp3; sourceTree = "<group>"; };
+		8F834DC325B2CD0D00F80855 /* Audio28.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio28.mp3; sourceTree = "<group>"; };
+		8F834DC425B2CD0E00F80855 /* Audio8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio8.mp3; sourceTree = "<group>"; };
+		8F834DC525B2CD0E00F80855 /* Audio18.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio18.mp3; sourceTree = "<group>"; };
+		8F834DC625B2CD0E00F80855 /* Audio25.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio25.mp3; sourceTree = "<group>"; };
+		8F834DC725B2CD0E00F80855 /* Audio14.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio14.mp3; sourceTree = "<group>"; };
+		8F834DC825B2CD0E00F80855 /* Audio7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio7.mp3; sourceTree = "<group>"; };
+		8F834DC925B2CD0E00F80855 /* Audio34.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio34.mp3; sourceTree = "<group>"; };
+		8F834DCA25B2CD0E00F80855 /* Audio12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio12.mp3; sourceTree = "<group>"; };
+		8F834DCB25B2CD0E00F80855 /* Audio10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio10.mp3; sourceTree = "<group>"; };
+		8F834DCC25B2CD0E00F80855 /* Audio33.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio33.mp3; sourceTree = "<group>"; };
+		8F834DCD25B2CD0F00F80855 /* Audio15.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio15.mp3; sourceTree = "<group>"; };
+		8F834DCE25B2CD0F00F80855 /* Audio24.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio24.mp3; sourceTree = "<group>"; };
+		8F834DCF25B2CD0F00F80855 /* Audio5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio5.mp3; sourceTree = "<group>"; };
+		8F834DD025B2CD0F00F80855 /* Audio27.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio27.mp3; sourceTree = "<group>"; };
+		8F834DD125B2CD0F00F80855 /* Audio9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio9.mp3; sourceTree = "<group>"; };
+		8F834DD225B2CD0F00F80855 /* Audio13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio13.mp3; sourceTree = "<group>"; };
+		8F834DD325B2CD0F00F80855 /* Audio3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio3.mp3; sourceTree = "<group>"; };
+		8F834DD425B2CD0F00F80855 /* Audio23.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio23.mp3; sourceTree = "<group>"; };
+		8F834DD525B2CD0F00F80855 /* Audio22.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio22.mp3; sourceTree = "<group>"; };
+		8F834DD625B2CD0F00F80855 /* Audio6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio6.mp3; sourceTree = "<group>"; };
+		8F834DD725B2CD1000F80855 /* Audio20.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio20.mp3; sourceTree = "<group>"; };
+		8F834DD825B2CD1000F80855 /* Audio26.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio26.mp3; sourceTree = "<group>"; };
+		8F834DD925B2CD1000F80855 /* Audio29.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio29.mp3; sourceTree = "<group>"; };
+		8F834DDA25B2CD1000F80855 /* Audio30.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio30.mp3; sourceTree = "<group>"; };
+		8F834DDB25B2CD1000F80855 /* Audio11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio11.mp3; sourceTree = "<group>"; };
+		8F834DDC25B2CD1000F80855 /* Audio21.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio21.mp3; sourceTree = "<group>"; };
+		8F834DDD25B2CD1000F80855 /* Audio1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio1.mp3; sourceTree = "<group>"; };
+		8F834DDE25B2CD1000F80855 /* Audio4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio4.mp3; sourceTree = "<group>"; };
+		8F834DDF25B2CD1000F80855 /* Audio2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio2.mp3; sourceTree = "<group>"; };
+		8F834DE025B2CD1000F80855 /* Audio31.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio31.mp3; sourceTree = "<group>"; };
+		8F834DE125B2CD1000F80855 /* Audio17.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio17.mp3; sourceTree = "<group>"; };
+		8F834DE225B2CD1100F80855 /* Audio35.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Audio35.mp3; sourceTree = "<group>"; };
+		8F84B6BE25B6DB9B002C5A4B /* ColorCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCVC.swift; sourceTree = "<group>"; };
+		8F84B6BF25B6DB9B002C5A4B /* ColorCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorCVC.xib; sourceTree = "<group>"; };
+		8FAA419F25AEE5E6000A30A6 /* TransitionCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionCVC.swift; sourceTree = "<group>"; };
+		8FAA41A025AEE5E6000A30A6 /* TransitionCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransitionCVC.xib; sourceTree = "<group>"; };
+		8FAA41A525AEE978000A30A6 /* TrimView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrimView.swift; sourceTree = "<group>"; };
+		8FAA41A625AEE978000A30A6 /* FrameImagesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameImagesView.swift; sourceTree = "<group>"; };
+		8FAA41A725AEE978000A30A6 /* TimelineMeasure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineMeasure.swift; sourceTree = "<group>"; };
+		8FAA41A825AEE978000A30A6 /* TimelineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		8FAA41A925AEE978000A30A6 /* CenterLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterLine.swift; sourceTree = "<group>"; };
+		8FAA41AA25AEE978000A30A6 /* TimelineScroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineScroller.swift; sourceTree = "<group>"; };
+		8FAA41AB25AEE978000A30A6 /* VideoTimelineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTimelineView.swift; sourceTree = "<group>"; };
+		8FACF8C625AD5BA20069931B /* GalleryTypeCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryTypeCVC.swift; sourceTree = "<group>"; };
+		8FACF8C725AD5BA20069931B /* GalleryTypeCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryTypeCVC.xib; sourceTree = "<group>"; };
+		8FB3E9D225B29F220056E2D0 /* AdjustSliderCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustSliderCVC.swift; sourceTree = "<group>"; };
+		8FB3E9D325B29F220056E2D0 /* AdjustSliderCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdjustSliderCVC.xib; sourceTree = "<group>"; };
+		8FCB2C9225A592C000294366 /* FilterCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCVC.swift; sourceTree = "<group>"; };
+		8FCB2C9325A592C000294366 /* FilterCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterCVC.xib; sourceTree = "<group>"; };
+		8FCB2CA025A5A7A300294366 /* StickerCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerCVC.swift; sourceTree = "<group>"; };
+		8FCB2CA125A5A7A300294366 /* StickerCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StickerCVC.xib; sourceTree = "<group>"; };
+		8FCB2CAB25A5B21200294366 /* EffectCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectCVC.swift; sourceTree = "<group>"; };
+		8FCB2CAC25A5B21200294366 /* EffectCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EffectCVC.xib; sourceTree = "<group>"; };
+		8FCE0A1525B8241B007C26A4 /* MyDraftsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDraftsVC.swift; sourceTree = "<group>"; };
+		8FCEE2E225A995210064686E /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		8FD1F02825CE68BF006D339D /* nativeAdmobCLVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nativeAdmobCLVCell.swift; sourceTree = "<group>"; };
+		8FD1F02925CE68BF006D339D /* nativeAdmobTBLCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nativeAdmobTBLCell.swift; sourceTree = "<group>"; };
+		8FD1F02A25CE68BF006D339D /* nativeAdmobCLVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = nativeAdmobCLVCell.xib; sourceTree = "<group>"; };
+		8FD1F02B25CE68BF006D339D /* nativeAdmobTBLCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = nativeAdmobTBLCell.xib; sourceTree = "<group>"; };
+		8FE259762596E41F00A89AC2 /* GalleryCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCVC.swift; sourceTree = "<group>"; };
+		8FE259772596E41F00A89AC2 /* GalleryCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryCVC.xib; sourceTree = "<group>"; };
+		8FE2597F2597257A00A89AC2 /* GalleryBarCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryBarCVC.swift; sourceTree = "<group>"; };
+		8FE259802597257A00A89AC2 /* GalleryBarCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryBarCVC.xib; sourceTree = "<group>"; };
+		8FE25988259730AD00A89AC2 /* GalleryEditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryEditVC.swift; sourceTree = "<group>"; };
+		8FEA255725B7E4C900B1B9B2 /* data.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = data.db; sourceTree = "<group>"; };
+		8FEA256025B7E58400B1B9B2 /* SqlDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqlDataBase.swift; sourceTree = "<group>"; };
+		8FEA256325B7E5B000B1B9B2 /* VideoEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoEntity.swift; sourceTree = "<group>"; };
+		8FEA256625B7EFB900B1B9B2 /* MyMovieCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMovieCVC.swift; sourceTree = "<group>"; };
+		8FEA256725B7EFB900B1B9B2 /* MyMovieCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyMovieCVC.xib; sourceTree = "<group>"; };
+		8FFD9F1825A9AE95001887BA /* EditVideoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditVideoManager.swift; sourceTree = "<group>"; };
+		C3AE7AF225C7E9CA0005C3B2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F6604452594942D00548FE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3AE7AF325C7E9CA0005C3B2 /* AVFoundation.framework in Frameworks */,
+				BE47A7557A73B8986BD2182B /* Pods_Video_Editor_Youtube___Maker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04D74FC340D3326AE9FEF611 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22ADB1673EA532613E654C22 /* Pods-Video Editor Youtube & Maker.debug.xcconfig */,
+				8F7C9D0E9C9C813AD4CF8CBC /* Pods-Video Editor Youtube & Maker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7DE34BFC153345CC167FC4A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3AE7AF225C7E9CA0005C3B2 /* AVFoundation.framework */,
+				0FB3F82E18892703A8B86EFF /* Pods_Video_Editor_Youtube___Maker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F03F09425A6E99100C2ED9E /* AdjustCell */ = {
+			isa = PBXGroup;
+			children = (
+				8F03F09825A6EAAA00C2ED9E /* ScaleCVC.swift */,
+				8F03F09725A6EAAA00C2ED9E /* ScaleCVC.xib */,
+				8F03F09C25A6EE8F00C2ED9E /* BackgroundCVC.swift */,
+				8F03F09D25A6EE8F00C2ED9E /* BackgroundCVC.xib */,
+				8FB3E9D225B29F220056E2D0 /* AdjustSliderCVC.swift */,
+				8FB3E9D325B29F220056E2D0 /* AdjustSliderCVC.xib */,
+				8F84B6BE25B6DB9B002C5A4B /* ColorCVC.swift */,
+				8F84B6BF25B6DB9B002C5A4B /* ColorCVC.xib */,
+			);
+			path = AdjustCell;
+			sourceTree = "<group>";
+		};
+		8F08610F259588650003EC37 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				8F08611D259593B50003EC37 /* Extension.swift */,
+				8F0861482595A8CE0003EC37 /* Utils.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		8F08611325958D260003EC37 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8FD1F02725CE6884006D339D /* Admob */,
+				8F08611425958D450003EC37 /* MyMovie */,
+				8FE259752596E3F400A89AC2 /* Gallery */,
+				8F37B5372599AF7600911974 /* Help */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F08611425958D450003EC37 /* MyMovie */ = {
+			isa = PBXGroup;
+			children = (
+				8FEA256625B7EFB900B1B9B2 /* MyMovieCVC.swift */,
+				8FEA256725B7EFB900B1B9B2 /* MyMovieCVC.xib */,
+				8F08611525958DAB0003EC37 /* MovieProTVC.swift */,
+				8F08611625958DAB0003EC37 /* MovieProTVC.xib */,
+				8F29F67325B92F7300F5EC87 /* MyDraftCVC.swift */,
+				8F29F67425B92F7300F5EC87 /* MyDraftCVC.xib */,
+			);
+			path = MyMovie;
+			sourceTree = "<group>";
+		};
+		8F08611B2595919E0003EC37 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				8F0861432595A7C90003EC37 /* GalleryVC.swift */,
+				8FE25988259730AD00A89AC2 /* GalleryEditVC.swift */,
+				8F11CFD325AFF047009C24F6 /* GalleryEditExtension.swift */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
+		8F086120259595DF0003EC37 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				8F086121259595DF0003EC37 /* Constant.swift */,
+				8F086122259595DF0003EC37 /* Config.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		8F0861322595A5B20003EC37 /* Admob */ = {
+			isa = PBXGroup;
+			children = (
+				8F0861332595A5B20003EC37 /* PaymentManager.swift */,
+				8F0861392595A6420003EC37 /* AdmobManager.swift */,
+			);
+			name = Admob;
+			path = "Video Editor Youtube & Maker/Admob";
+			sourceTree = SOURCE_ROOT;
+		};
+		8F08613F2595A7490003EC37 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				8F0861402595A75A0003EC37 /* HelpVC.swift */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		8F37B5372599AF7600911974 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				8F37B53A2599C25400911974 /* HelpTVC.swift */,
+				8F37B53B2599C25400911974 /* HelpTVC.xib */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		8F5ACD4B25AC025A009E9EA0 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				8F5ACD4F25AC02D9009E9EA0 /* VideoGeneratorError.swift */,
+				8F5ACD4C25AC028E009E9EA0 /* VideoGenerator.swift */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		8F66043F2594942D00548FE2 = {
+			isa = PBXGroup;
+			children = (
+				8F66044A2594942D00548FE2 /* Video Editor Youtube & Maker */,
+				8F6604492594942D00548FE2 /* Products */,
+				04D74FC340D3326AE9FEF611 /* Pods */,
+				7DE34BFC153345CC167FC4A2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8F6604492594942D00548FE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F6604482594942D00548FE2 /* Video Editor Youtube & Maker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F66044A2594942D00548FE2 /* Video Editor Youtube & Maker */ = {
+			isa = PBXGroup;
+			children = (
+				8F66044D2594942D00548FE2 /* SceneDelegate.swift */,
+				8F66044B2594942D00548FE2 /* AppDelegate.swift */,
+				8F6604512594942D00548FE2 /* Main.storyboard */,
+				8F6604542594942F00548FE2 /* Assets.xcassets */,
+				8F6604562594942F00548FE2 /* LaunchScreen.storyboard */,
+				8F6604592594942F00548FE2 /* Info.plist */,
+				8F834DBB25B2CCC300F80855 /* Audio */,
+				8F086120259595DF0003EC37 /* Config */,
+				8F08610F259588650003EC37 /* Util */,
+				8F0861322595A5B20003EC37 /* Admob */,
+				8FEA255625B7E4A400B1B9B2 /* Database */,
+				8FEA255A25B7E4E600B1B9B2 /* Service */,
+				8FCEE2E125A995010064686E /* Model */,
+				8FCEE2D625A993500064686E /* Manager */,
+				8F08611325958D260003EC37 /* View */,
+				8F660461259494E600548FE2 /* Controller */,
+				8FAA41A425AEE978000A30A6 /* VideoTimelineView */,
+				8F5ACD4B25AC025A009E9EA0 /* Vendors */,
+			);
+			path = "Video Editor Youtube & Maker";
+			sourceTree = "<group>";
+		};
+		8F660461259494E600548FE2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F660462259494F300548FE2 /* MyMovie */,
+				8F08611B2595919E0003EC37 /* Gallery */,
+				8F08613F2595A7490003EC37 /* Help */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8F660462259494F300548FE2 /* MyMovie */ = {
+			isa = PBXGroup;
+			children = (
+				8F6604632594950400548FE2 /* MyMovieVC.swift */,
+				8FCE0A1525B8241B007C26A4 /* MyDraftsVC.swift */,
+				8F20D05825B995BF008D3ED7 /* ShareYoutubeVC.swift */,
+				8F6604692594A32100548FE2 /* MovieProVC.swift */,
+				8F66046C2594A33500548FE2 /* SettingVC.swift */,
+				8F08616A2595D77D0003EC37 /* PremiumVC.swift */,
+				8F015D7A259C79880062EDD9 /* ShowSettingVC.swift */,
+			);
+			path = MyMovie;
+			sourceTree = "<group>";
+		};
+		8F834DBB25B2CCC300F80855 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				8F834DDD25B2CD1000F80855 /* Audio1.mp3 */,
+				8F834DDF25B2CD1000F80855 /* Audio2.mp3 */,
+				8F834DD325B2CD0F00F80855 /* Audio3.mp3 */,
+				8F834DDE25B2CD1000F80855 /* Audio4.mp3 */,
+				8F834DCF25B2CD0F00F80855 /* Audio5.mp3 */,
+				8F834DD625B2CD0F00F80855 /* Audio6.mp3 */,
+				8F834DC825B2CD0E00F80855 /* Audio7.mp3 */,
+				8F834DC425B2CD0E00F80855 /* Audio8.mp3 */,
+				8F834DD125B2CD0F00F80855 /* Audio9.mp3 */,
+				8F834DCB25B2CD0E00F80855 /* Audio10.mp3 */,
+				8F834DDB25B2CD1000F80855 /* Audio11.mp3 */,
+				8F834DCA25B2CD0E00F80855 /* Audio12.mp3 */,
+				8F834DD225B2CD0F00F80855 /* Audio13.mp3 */,
+				8F834DC725B2CD0E00F80855 /* Audio14.mp3 */,
+				8F834DCD25B2CD0F00F80855 /* Audio15.mp3 */,
+				8F834DC125B2CD0D00F80855 /* Audio16.mp3 */,
+				8F834DE125B2CD1000F80855 /* Audio17.mp3 */,
+				8F834DC525B2CD0E00F80855 /* Audio18.mp3 */,
+				8F834DC025B2CD0D00F80855 /* Audio19.mp3 */,
+				8F834DD725B2CD1000F80855 /* Audio20.mp3 */,
+				8F834DDC25B2CD1000F80855 /* Audio21.mp3 */,
+				8F834DD525B2CD0F00F80855 /* Audio22.mp3 */,
+				8F834DD425B2CD0F00F80855 /* Audio23.mp3 */,
+				8F834DCE25B2CD0F00F80855 /* Audio24.mp3 */,
+				8F834DC625B2CD0E00F80855 /* Audio25.mp3 */,
+				8F834DD825B2CD1000F80855 /* Audio26.mp3 */,
+				8F834DD025B2CD0F00F80855 /* Audio27.mp3 */,
+				8F834DC325B2CD0D00F80855 /* Audio28.mp3 */,
+				8F834DD925B2CD1000F80855 /* Audio29.mp3 */,
+				8F834DDA25B2CD1000F80855 /* Audio30.mp3 */,
+				8F834DE025B2CD1000F80855 /* Audio31.mp3 */,
+				8F834DC225B2CD0D00F80855 /* Audio32.mp3 */,
+				8F834DCC25B2CD0E00F80855 /* Audio33.mp3 */,
+				8F834DC925B2CD0E00F80855 /* Audio34.mp3 */,
+				8F834DE225B2CD1100F80855 /* Audio35.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		8FAA41A425AEE978000A30A6 /* VideoTimelineView */ = {
+			isa = PBXGroup;
+			children = (
+				8FAA41A525AEE978000A30A6 /* TrimView.swift */,
+				8FAA41A625AEE978000A30A6 /* FrameImagesView.swift */,
+				8FAA41A725AEE978000A30A6 /* TimelineMeasure.swift */,
+				8FAA41A825AEE978000A30A6 /* TimelineView.swift */,
+				8FAA41A925AEE978000A30A6 /* CenterLine.swift */,
+				8FAA41AA25AEE978000A30A6 /* TimelineScroller.swift */,
+				8FAA41AB25AEE978000A30A6 /* VideoTimelineView.swift */,
+			);
+			path = VideoTimelineView;
+			sourceTree = "<group>";
+		};
+		8FCB2C8E25A591FA00294366 /* ItemsCell */ = {
+			isa = PBXGroup;
+			children = (
+				8FCB2C9225A592C000294366 /* FilterCVC.swift */,
+				8FCB2C9325A592C000294366 /* FilterCVC.xib */,
+				8FCB2CAB25A5B21200294366 /* EffectCVC.swift */,
+				8FCB2CAC25A5B21200294366 /* EffectCVC.xib */,
+				8FAA419F25AEE5E6000A30A6 /* TransitionCVC.swift */,
+				8FAA41A025AEE5E6000A30A6 /* TransitionCVC.xib */,
+			);
+			path = ItemsCell;
+			sourceTree = "<group>";
+		};
+		8FCB2C8F25A5921200294366 /* EditCell */ = {
+			isa = PBXGroup;
+			children = (
+				8F5B5BE925AD97E80077EC92 /* SpeedCVC.swift */,
+				8F5B5BEA25AD97E80077EC92 /* SpeedCVC.xib */,
+			);
+			path = EditCell;
+			sourceTree = "<group>";
+		};
+		8FCB2C9025A5921B00294366 /* StickerCell */ = {
+			isa = PBXGroup;
+			children = (
+				8FCB2CA025A5A7A300294366 /* StickerCVC.swift */,
+				8FCB2CA125A5A7A300294366 /* StickerCVC.xib */,
+			);
+			path = StickerCell;
+			sourceTree = "<group>";
+		};
+		8FCB2C9125A5922B00294366 /* MusicCell */ = {
+			isa = PBXGroup;
+			children = (
+				8F0F03CC25B57B7800DF47D3 /* AppleMusicCVC.swift */,
+				8F0F03CB25B57B7800DF47D3 /* AppleMusicCVC.xib */,
+				8F0F03B725B549A700DF47D3 /* AudioCVC.swift */,
+				8F0F03B825B549A700DF47D3 /* AudioCVC.xib */,
+			);
+			path = MusicCell;
+			sourceTree = "<group>";
+		};
+		8FCEE2D625A993500064686E /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				8FFD9F1825A9AE95001887BA /* EditVideoManager.swift */,
+				8F04771225C422440085C99F /* PhotoLibraryManager.swift */,
+			);
+			name = Manager;
+			path = "Video Editor Youtube & Maker/Manager";
+			sourceTree = SOURCE_ROOT;
+		};
+		8FCEE2E125A995010064686E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8FCEE2E225A995210064686E /* VideoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8FD1F02725CE6884006D339D /* Admob */ = {
+			isa = PBXGroup;
+			children = (
+				8FD1F02825CE68BF006D339D /* nativeAdmobCLVCell.swift */,
+				8FD1F02A25CE68BF006D339D /* nativeAdmobCLVCell.xib */,
+				8FD1F02925CE68BF006D339D /* nativeAdmobTBLCell.swift */,
+				8FD1F02B25CE68BF006D339D /* nativeAdmobTBLCell.xib */,
+			);
+			path = Admob;
+			sourceTree = "<group>";
+		};
+		8FE259752596E3F400A89AC2 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				8FFBAD44259D7AAD002B880E /* Gallery */,
+				8FFBAD46259D7ACE002B880E /* GalleryEdit */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
+		8FEA255625B7E4A400B1B9B2 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				8FEA255725B7E4C900B1B9B2 /* data.db */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		8FEA255A25B7E4E600B1B9B2 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8FEA256025B7E58400B1B9B2 /* SqlDataBase.swift */,
+				8FEA256325B7E5B000B1B9B2 /* VideoEntity.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8FFBAD44259D7AAD002B880E /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				8FE259762596E41F00A89AC2 /* GalleryCVC.swift */,
+				8FE259772596E41F00A89AC2 /* GalleryCVC.xib */,
+				8FE2597F2597257A00A89AC2 /* GalleryBarCVC.swift */,
+				8FE259802597257A00A89AC2 /* GalleryBarCVC.xib */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
+		8FFBAD46259D7ACE002B880E /* GalleryEdit */ = {
+			isa = PBXGroup;
+			children = (
+				8F0AD4E7259AE91600F8AE99 /* GalleryEditCVC.swift */,
+				8F0AD4E8259AE91700F8AE99 /* GalleryEditCVC.xib */,
+				8FACF8C625AD5BA20069931B /* GalleryTypeCVC.swift */,
+				8FACF8C725AD5BA20069931B /* GalleryTypeCVC.xib */,
+				8FCB2C9125A5922B00294366 /* MusicCell */,
+				8FCB2C9025A5921B00294366 /* StickerCell */,
+				8FCB2C8F25A5921200294366 /* EditCell */,
+				8F03F09425A6E99100C2ED9E /* AdjustCell */,
+				8FCB2C8E25A591FA00294366 /* ItemsCell */,
+			);
+			path = GalleryEdit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F6604472594942D00548FE2 /* Video Editor Youtube & Maker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F66045C2594942F00548FE2 /* Build configuration list for PBXNativeTarget "Video Editor Youtube & Maker" */;
+			buildPhases = (
+				9E1796825FCB4ED743417EC3 /* [CP] Check Pods Manifest.lock */,
+				8F6604442594942D00548FE2 /* Sources */,
+				8F6604452594942D00548FE2 /* Frameworks */,
+				8F6604462594942D00548FE2 /* Resources */,
+				239A8D1061EAC9261D018FCE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Video Editor Youtube & Maker";
+			productName = "Video Editor Youtube & Maker";
+			productReference = 8F6604482594942D00548FE2 /* Video Editor Youtube & Maker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F6604402594942D00548FE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					8F6604472594942D00548FE2 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 8F6604432594942D00548FE2 /* Build configuration list for PBXProject "Video Editor Youtube & Maker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F66043F2594942D00548FE2;
+			productRefGroup = 8F6604492594942D00548FE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F6604472594942D00548FE2 /* Video Editor Youtube & Maker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F6604462594942D00548FE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F834DF725B2CD1100F80855 /* Audio23.mp3 in Resources */,
+				8F834DF525B2CD1100F80855 /* Audio13.mp3 in Resources */,
+				8F834DFD25B2CD1100F80855 /* Audio30.mp3 in Resources */,
+				8F834DE325B2CD1100F80855 /* Audio19.mp3 in Resources */,
+				8FB3E9D525B29F220056E2D0 /* AdjustSliderCVC.xib in Resources */,
+				8FCB2CAE25A5B21200294366 /* EffectCVC.xib in Resources */,
+				8FCB2CA325A5A7A300294366 /* StickerCVC.xib in Resources */,
+				8F5B5BEC25AD97E80077EC92 /* SpeedCVC.xib in Resources */,
+				8F03F09F25A6EE8F00C2ED9E /* BackgroundCVC.xib in Resources */,
+				8F834DF125B2CD1100F80855 /* Audio24.mp3 in Resources */,
+				8F834DE825B2CD1100F80855 /* Audio18.mp3 in Resources */,
+				8FCB2C9525A592C000294366 /* FilterCVC.xib in Resources */,
+				8F834DF225B2CD1100F80855 /* Audio5.mp3 in Resources */,
+				8F834E0525B2CD1100F80855 /* Audio35.mp3 in Resources */,
+				8F834DF325B2CD1100F80855 /* Audio27.mp3 in Resources */,
+				8F37B53D2599C25400911974 /* HelpTVC.xib in Resources */,
+				8F6604582594942F00548FE2 /* LaunchScreen.storyboard in Resources */,
+				8F03F09925A6EAAA00C2ED9E /* ScaleCVC.xib in Resources */,
+				8FACF8C925AD5BA20069931B /* GalleryTypeCVC.xib in Resources */,
+				8FAA41A225AEE5E6000A30A6 /* TransitionCVC.xib in Resources */,
+				8F834E0025B2CD1100F80855 /* Audio1.mp3 in Resources */,
+				8F834DF025B2CD1100F80855 /* Audio15.mp3 in Resources */,
+				8F834DEA25B2CD1100F80855 /* Audio14.mp3 in Resources */,
+				8F834DE725B2CD1100F80855 /* Audio8.mp3 in Resources */,
+				8F834DFB25B2CD1100F80855 /* Audio26.mp3 in Resources */,
+				8F834DF625B2CD1100F80855 /* Audio3.mp3 in Resources */,
+				8F834DEE25B2CD1100F80855 /* Audio10.mp3 in Resources */,
+				8F834DFE25B2CD1100F80855 /* Audio11.mp3 in Resources */,
+				8F834DE525B2CD1100F80855 /* Audio32.mp3 in Resources */,
+				8F6604552594942F00548FE2 /* Assets.xcassets in Resources */,
+				8F29F67625B92F7300F5EC87 /* MyDraftCVC.xib in Resources */,
+				8FD1F02F25CE68BF006D339D /* nativeAdmobTBLCell.xib in Resources */,
+				8F834DF425B2CD1100F80855 /* Audio9.mp3 in Resources */,
+				8F834DEB25B2CD1100F80855 /* Audio7.mp3 in Resources */,
+				8F834E0225B2CD1100F80855 /* Audio2.mp3 in Resources */,
+				8F834DEC25B2CD1100F80855 /* Audio34.mp3 in Resources */,
+				8F834E0325B2CD1100F80855 /* Audio31.mp3 in Resources */,
+				8FE259792596E41F00A89AC2 /* GalleryCVC.xib in Resources */,
+				8F08611825958DAB0003EC37 /* MovieProTVC.xib in Resources */,
+				8F834DF925B2CD1100F80855 /* Audio6.mp3 in Resources */,
+				8F834DED25B2CD1100F80855 /* Audio12.mp3 in Resources */,
+				8F834DE425B2CD1100F80855 /* Audio16.mp3 in Resources */,
+				8F0AD4EA259AE91700F8AE99 /* GalleryEditCVC.xib in Resources */,
+				8F0F03CD25B57B7800DF47D3 /* AppleMusicCVC.xib in Resources */,
+				8FEA256925B7EFB900B1B9B2 /* MyMovieCVC.xib in Resources */,
+				8F834DE625B2CD1100F80855 /* Audio28.mp3 in Resources */,
+				8F834DF825B2CD1100F80855 /* Audio22.mp3 in Resources */,
+				8F84B6C125B6DB9B002C5A4B /* ColorCVC.xib in Resources */,
+				8F834DE925B2CD1100F80855 /* Audio25.mp3 in Resources */,
+				8F834DEF25B2CD1100F80855 /* Audio33.mp3 in Resources */,
+				8F834DFF25B2CD1100F80855 /* Audio21.mp3 in Resources */,
+				8F834E0425B2CD1100F80855 /* Audio17.mp3 in Resources */,
+				8F0F03BA25B549A700DF47D3 /* AudioCVC.xib in Resources */,
+				8F6604532594942D00548FE2 /* Main.storyboard in Resources */,
+				8F834DFC25B2CD1100F80855 /* Audio29.mp3 in Resources */,
+				8F834E0125B2CD1100F80855 /* Audio4.mp3 in Resources */,
+				8FD1F02E25CE68BF006D339D /* nativeAdmobCLVCell.xib in Resources */,
+				8FEA255825B7E4C900B1B9B2 /* data.db in Resources */,
+				8F834DFA25B2CD1100F80855 /* Audio20.mp3 in Resources */,
+				8FE259822597257A00A89AC2 /* GalleryBarCVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		239A8D1061EAC9261D018FCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Video Editor Youtube & Maker/Pods-Video Editor Youtube & Maker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Video Editor Youtube & Maker/Pods-Video Editor Youtube & Maker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Video Editor Youtube & Maker/Pods-Video Editor Youtube & Maker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E1796825FCB4ED743417EC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Video Editor Youtube & Maker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F6604442594942D00548FE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F03F09E25A6EE8F00C2ED9E /* BackgroundCVC.swift in Sources */,
+				8F6604642594950400548FE2 /* MyMovieVC.swift in Sources */,
+				8F08616B2595D77E0003EC37 /* PremiumVC.swift in Sources */,
+				8FD1F02D25CE68BF006D339D /* nativeAdmobTBLCell.swift in Sources */,
+				8F5B5BEB25AD97E80077EC92 /* SpeedCVC.swift in Sources */,
+				8F0861442595A7C90003EC37 /* GalleryVC.swift in Sources */,
+				8F0861412595A75A0003EC37 /* HelpVC.swift in Sources */,
+				8F29F67525B92F7300F5EC87 /* MyDraftCVC.swift in Sources */,
+				8F66046A2594A32100548FE2 /* MovieProVC.swift in Sources */,
+				8FAA41AE25AEE978000A30A6 /* TimelineMeasure.swift in Sources */,
+				8F5ACD4D25AC028E009E9EA0 /* VideoGenerator.swift in Sources */,
+				8F04771325C422440085C99F /* PhotoLibraryManager.swift in Sources */,
+				8F0861352595A5B20003EC37 /* PaymentManager.swift in Sources */,
+				8F0861492595A8CE0003EC37 /* Utils.swift in Sources */,
+				8FE25989259730AD00A89AC2 /* GalleryEditVC.swift in Sources */,
+				8FE259812597257A00A89AC2 /* GalleryBarCVC.swift in Sources */,
+				8F0AD4E9259AE91700F8AE99 /* GalleryEditCVC.swift in Sources */,
+				8F015D7B259C79880062EDD9 /* ShowSettingVC.swift in Sources */,
+				8F20D05925B995BF008D3ED7 /* ShareYoutubeVC.swift in Sources */,
+				8FCB2CA225A5A7A300294366 /* StickerCVC.swift in Sources */,
+				8FAA41B025AEE978000A30A6 /* CenterLine.swift in Sources */,
+				8FACF8C825AD5BA20069931B /* GalleryTypeCVC.swift in Sources */,
+				8F84B6C025B6DB9B002C5A4B /* ColorCVC.swift in Sources */,
+				8F37B53C2599C25400911974 /* HelpTVC.swift in Sources */,
+				8FEA256425B7E5B000B1B9B2 /* VideoEntity.swift in Sources */,
+				8F11CFD425AFF047009C24F6 /* GalleryEditExtension.swift in Sources */,
+				8FAA41AD25AEE978000A30A6 /* FrameImagesView.swift in Sources */,
+				8FB3E9D425B29F220056E2D0 /* AdjustSliderCVC.swift in Sources */,
+				8F0F03CE25B57B7800DF47D3 /* AppleMusicCVC.swift in Sources */,
+				8FE259782596E41F00A89AC2 /* GalleryCVC.swift in Sources */,
+				8F08613A2595A6420003EC37 /* AdmobManager.swift in Sources */,
+				8FAA41AF25AEE978000A30A6 /* TimelineView.swift in Sources */,
+				8FFD9F1925A9AE95001887BA /* EditVideoManager.swift in Sources */,
+				8FEA256825B7EFB900B1B9B2 /* MyMovieCVC.swift in Sources */,
+				8F03F09A25A6EAAA00C2ED9E /* ScaleCVC.swift in Sources */,
+				8FD1F02C25CE68BF006D339D /* nativeAdmobCLVCell.swift in Sources */,
+				8FAA41AC25AEE978000A30A6 /* TrimView.swift in Sources */,
+				8F5ACD5025AC02D9009E9EA0 /* VideoGeneratorError.swift in Sources */,
+				8F086123259595DF0003EC37 /* Constant.swift in Sources */,
+				8FCB2CAD25A5B21200294366 /* EffectCVC.swift in Sources */,
+				8FCEE2E325A995210064686E /* VideoModel.swift in Sources */,
+				8F66046D2594A33500548FE2 /* SettingVC.swift in Sources */,
+				8F66044C2594942D00548FE2 /* AppDelegate.swift in Sources */,
+				8F08611725958DAB0003EC37 /* MovieProTVC.swift in Sources */,
+				8FEA256125B7E58400B1B9B2 /* SqlDataBase.swift in Sources */,
+				8FCB2C9425A592C000294366 /* FilterCVC.swift in Sources */,
+				8F086124259595DF0003EC37 /* Config.swift in Sources */,
+				8FAA41B125AEE978000A30A6 /* TimelineScroller.swift in Sources */,
+				8F0F03B925B549A700DF47D3 /* AudioCVC.swift in Sources */,
+				8FAA41A125AEE5E6000A30A6 /* TransitionCVC.swift in Sources */,
+				8FAA41B225AEE978000A30A6 /* VideoTimelineView.swift in Sources */,
+				8F66044E2594942D00548FE2 /* SceneDelegate.swift in Sources */,
+				8FCE0A1625B8241C007C26A4 /* MyDraftsVC.swift in Sources */,
+				8F08611E259593B50003EC37 /* Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F6604512594942D00548FE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F6604522594942D00548FE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F6604562594942F00548FE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F6604572594942F00548FE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F66045A2594942F00548FE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F66045B2594942F00548FE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F66045D2594942F00548FE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22ADB1673EA532613E654C22 /* Pods-Video Editor Youtube & Maker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4L68UJ2JT3;
+				INFOPLIST_FILE = "Video Editor Youtube & Maker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Video-Editor-Youtube---Maker.Video-Editor-Youtube---Maker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F66045E2594942F00548FE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F7C9D0E9C9C813AD4CF8CBC /* Pods-Video Editor Youtube & Maker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4L68UJ2JT3;
+				INFOPLIST_FILE = "Video Editor Youtube & Maker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Video-Editor-Youtube---Maker.Video-Editor-Youtube---Maker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F6604432594942D00548FE2 /* Build configuration list for PBXProject "Video Editor Youtube & Maker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F66045A2594942F00548FE2 /* Debug */,
+				8F66045B2594942F00548FE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F66045C2594942F00548FE2 /* Build configuration list for PBXNativeTarget "Video Editor Youtube & Maker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F66045D2594942F00548FE2 /* Debug */,
+				8F66045E2594942F00548FE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F6604402594942D00548FE2 /* Project object */;
+}

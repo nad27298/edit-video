@@ -1,0 +1,6 @@
+framework module Pods_Video_Editor_Youtube___Maker {
+  umbrella header "Pods-Video Editor Youtube & Maker-umbrella.h"
+
+  export *
+  module * { export * }
+}
