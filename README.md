@@ -1,4 +1,4 @@
-## Edit Video
+## Video Editor
 
 **Đây là dự án thứ 3 của tôi về iOS**
 
