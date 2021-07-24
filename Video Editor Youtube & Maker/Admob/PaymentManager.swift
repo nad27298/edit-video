@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import SwiftKeychainWrapper
+
 enum FreeType: Int{
     case none
     case expried
@@ -20,7 +22,7 @@ class PaymentManager: NSObject {
     static let shared = PaymentManager()
   
     func isPurchase()->Bool{
-        if let time = UserDefaults.standard.value(forKey: "purchaseTime") as? TimeInterval{
+        if let time = KeychainWrapper.standard.double(forKey: "NGUYEN_HUY_SON"){
             let timeInterval = Date().timeIntervalSince1970
             if timeInterval > time{
                 return false
@@ -31,7 +33,7 @@ class PaymentManager: NSObject {
     }
     
     func savePurchase(time: TimeInterval){
-        UserDefaults.standard.setValue(time, forKey: "purchaseTime")
+        KeychainWrapper.standard.set(time, forKey: "NGUYEN_HUY_SON")
     }
    
 }

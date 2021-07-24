@@ -44,6 +44,7 @@ PODS:
   - SQLite.swift (0.12.2):
     - SQLite.swift/standard (= 0.12.2)
   - SQLite.swift/standard (0.12.2)
+  - SwiftKeychainWrapper (4.0.1)
   - SwiftyStoreKit (0.16.1)
   - Toast-Swift (5.0.1)
 
@@ -57,6 +58,7 @@ DEPENDENCIES:
   - MBProgressHUD
   - NewPopMenu
   - SQLite.swift
+  - SwiftKeychainWrapper
   - SwiftyStoreKit
   - Toast-Swift
 
@@ -77,6 +79,7 @@ SPEC REPOS:
     - NewPopMenu
     - PromisesObjC
     - SQLite.swift
+    - SwiftKeychainWrapper
     - SwiftyStoreKit
     - Toast-Swift
 
@@ -96,9 +99,10 @@ SPEC CHECKSUMS:
   NewPopMenu: c6129e08e8192f6257ceb5f9a4357e1b59c6e2e7
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
   SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
+  SwiftKeychainWrapper: 807ba1d63c33a7d0613288512399cd1eda1e470c
   SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
   Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
 
-PODFILE CHECKSUM: a43608d534c37b216d0b91df39aafaac7b95219f
+PODFILE CHECKSUM: 4b3a3743b0f41135390845cf8f8ceea33054f74e
 
 COCOAPODS: 1.10.0

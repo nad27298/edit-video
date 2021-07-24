@@ -15,4 +15,6 @@ target 'Video Editor Youtube & Maker' do
   pod 'DropDown'
   pod "ESPullToRefresh"
   pod 'JGProgressHUD'
+  pod 'SwiftKeychainWrapper'
+
 end
